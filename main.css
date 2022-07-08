@@ -1,0 +1,60 @@
+body {
+    background-color: #f0bdc8;
+} h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px rgb(221, 221, 221);
+} .largeh1 {
+    animation-name: textanimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}.smallh1 {
+    font-size: 30px;
+}.mainDiv {
+    padding: 5vh 5vw;
+    margin: auto;
+} .navBarDiv {
+    margin: auto;
+    background-color: white;
+    height: 3vh;
+    width: 80vw;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(221, 221, 221);
+}.button {
+    float: center;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 15px;
+    color: black;
+} .button:hover {
+    background-color: #fcc9b9;
+    box-shadow: 5px 5px rgb(221, 221, 221);
+} .button:active {
+    transform: translateY(3px);
+} @keyframes textanimation {
+    0% {color: #ff818b;}
+    16.67% {color: #ff9f99;}
+    33.33% {color: #ffcba8;}
+    50% {color: #d7eab7;}
+    66.67% {color: #a1e4cc;}
+    83.33% {color: #b4bee3;}
+    100% {color: #ff818b;}
+} img {
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+    border-style: none;
+    height: 40%;
+    width: 40%;
+}

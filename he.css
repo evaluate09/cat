@@ -1,0 +1,24 @@
+body {
+    background-image: url(walkingcat.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+} p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+} a {
+    text-decoration: none;
+} a:visited {
+    color: white;
+} a:hover {
+    text-shadow: 4px 4px gray;
+}  div {
+    padding: 5vh 5vw;
+    position: relative;
+}
